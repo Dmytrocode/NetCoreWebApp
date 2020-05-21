@@ -1,0 +1,14 @@
+C:\Users\Dima\source\repos\NetCoreApp\NetCoreApp\bin\Debug\netcoreapp2.1\NetCoreApp.deps.json
+C:\Users\Dima\source\repos\NetCoreApp\NetCoreApp\bin\Debug\netcoreapp2.1\NetCoreApp.runtimeconfig.json
+C:\Users\Dima\source\repos\NetCoreApp\NetCoreApp\bin\Debug\netcoreapp2.1\NetCoreApp.runtimeconfig.dev.json
+C:\Users\Dima\source\repos\NetCoreApp\NetCoreApp\bin\Debug\netcoreapp2.1\NetCoreApp.dll
+C:\Users\Dima\source\repos\NetCoreApp\NetCoreApp\bin\Debug\netcoreapp2.1\NetCoreApp.pdb
+C:\Users\Dima\source\repos\NetCoreApp\NetCoreApp\obj\Debug\netcoreapp2.1\NetCoreApp.csprojAssemblyReference.cache
+C:\Users\Dima\source\repos\NetCoreApp\NetCoreApp\obj\Debug\netcoreapp2.1\NetCoreApp.csproj.CoreCompileInputs.cache
+C:\Users\Dima\source\repos\NetCoreApp\NetCoreApp\obj\Debug\netcoreapp2.1\NetCoreApp.RazorAssemblyInfo.cache
+C:\Users\Dima\source\repos\NetCoreApp\NetCoreApp\obj\Debug\netcoreapp2.1\NetCoreApp.RazorAssemblyInfo.cs
+C:\Users\Dima\source\repos\NetCoreApp\NetCoreApp\obj\Debug\netcoreapp2.1\NetCoreApp.AssemblyInfoInputs.cache
+C:\Users\Dima\source\repos\NetCoreApp\NetCoreApp\obj\Debug\netcoreapp2.1\NetCoreApp.AssemblyInfo.cs
+C:\Users\Dima\source\repos\NetCoreApp\NetCoreApp\obj\Debug\netcoreapp2.1\NetCoreApp.RazorTargetAssemblyInfo.cache
+C:\Users\Dima\source\repos\NetCoreApp\NetCoreApp\obj\Debug\netcoreapp2.1\NetCoreApp.dll
+C:\Users\Dima\source\repos\NetCoreApp\NetCoreApp\obj\Debug\netcoreapp2.1\NetCoreApp.pdb
