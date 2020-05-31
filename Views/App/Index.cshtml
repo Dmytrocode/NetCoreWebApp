@@ -1,0 +1,62 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Home Page";
+
+}
+
+
+    <div class="prod-info">
+        <img src="~/img/puppy1.webp" />
+        <h3>Puppy</h3>
+        <ul class="product-props">
+            <li>Price: $95.99 </li>
+            <li>Location: Pet Store </li>
+            <li>Title: </li>
+            <li>Description: Cute puppy</li>
+        </ul>
+
+        <button id="buyButton">Buy</button>
+    </div>
+
+
+    <div id="theForm">
+        <form>
+            <label>Your Name:</label>
+            <br />
+            <input style="font-size: 18px;" />
+            <br />
+            <label>Email: </label>
+            <br />
+            <input type="email" />
+            <br />
+            <label>Message:</label>
+            <br />
+            <textarea rows="3"></textarea>
+            <br />
+            <input type="submit" value="Send Message" />
+        </form>
+    </div>
+
+    <div>
+        <div id="loginToggle">Login</div>
+        <form class="popup-form">
+            <div>
+                <label>Username</label>
+                <input />
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" />
+            </div>
+            <div>
+                <input type="checkbox" />
+                <label>Remember Me?</label>
+            </div>
+            <div>
+                <input type="submit" value="Login" />
+            </div>
+        </form>
+    </div>
+
