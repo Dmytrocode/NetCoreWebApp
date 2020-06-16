@@ -7,56 +7,62 @@
 }
 
 
-    <div class="prod-info">
-        <img src="~/img/puppy1.webp" />
-        <h3>Puppy</h3>
-        <ul class="product-props">
-            <li>Price: $95.99 </li>
-            <li>Location: Pet Store </li>
-            <li>Title: </li>
-            <li>Description: Cute puppy</li>
-        </ul>
+    <div class="row">
+        <div class="col-md-9">
+            <div class="prod-info">
+                <img src="~/img/puppy1.webp" height="255" width="333"/>
+                <h3>Puppy</h3>
+                <ul class="product-props">
+                    <li>Price: $95.99 </li>
+                    <li>Location: Pet Store </li>
+                    <li>Title: </li>
+                    <li>Description: Cute puppy</li>
+                </ul>
 
-        <button id="buyButton">Buy</button>
+                <button id="buyButton" class="btn btn-primary">Buy</button>
+            </div>
+
+
+            <div id="theForm">
+                <form>
+                    <label>Your Name:</label>
+                    <br />
+                    <input style="font-size: 18px;" />
+                    <br />
+                    <label>Email: </label>
+                    <br />
+                    <input type="email" />
+                    <br />
+                    <label>Message:</label>
+                    <br />
+                    <textarea rows="3"></textarea>
+                    <br />
+                    <input type="submit" value="Send Message" />
+                </form>
+            </div>
+
+            <div>
+                <div id="loginToggle">Login</div>
+                <form class="popup-form">
+                    <div>
+                        <label>Username</label>
+                        <input />
+                    </div>
+                    <div>
+                        <label>Password</label>
+                        <input type="password" />
+                    </div>
+                    <div>
+                        <input type="checkbox" />
+                        <label>Remember Me?</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Login" />
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <p>This is a site to buy some Cats and Dogs</p>
+        </div>
     </div>
-
-
-    <div id="theForm">
-        <form>
-            <label>Your Name:</label>
-            <br />
-            <input style="font-size: 18px;" />
-            <br />
-            <label>Email: </label>
-            <br />
-            <input type="email" />
-            <br />
-            <label>Message:</label>
-            <br />
-            <textarea rows="3"></textarea>
-            <br />
-            <input type="submit" value="Send Message" />
-        </form>
-    </div>
-
-    <div>
-        <div id="loginToggle">Login</div>
-        <form class="popup-form">
-            <div>
-                <label>Username</label>
-                <input />
-            </div>
-            <div>
-                <label>Password</label>
-                <input type="password" />
-            </div>
-            <div>
-                <input type="checkbox" />
-                <label>Remember Me?</label>
-            </div>
-            <div>
-                <input type="submit" value="Login" />
-            </div>
-        </form>
-    </div>
-

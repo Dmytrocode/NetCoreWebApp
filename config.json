@@ -1,0 +1,9 @@
+{
+  "Colors": {
+    "Favorite": "blue"
+
+  },
+  "ConnectionStrings": {
+    "NetCoreAppString": "server=(localdb)\\ProjectsV13;Database=NetCoreAppDb;Integrated Security=true;MultipleActiveResultSets=true;"
+  }
+}

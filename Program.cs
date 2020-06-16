@@ -19,6 +19,14 @@ namespace NetCoreApp
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .ConfigureAppConfiguration(SetupConfiguration)
                 .UseStartup<Startup>();
+
+        private static void SetupConfiguration(WebHostBuilderContext arg1, IConfigurationBuilder builder)
+        {
+            builder.Sources.Clear(); //remove default options
+
+            builder.AddJsonFile("config.json", false, true);
+        }
     }
 }

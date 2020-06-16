@@ -15,7 +15,7 @@ namespace NetCoreApp.Services
         }
         public void SendMessage(string to, string subject, string body)
         {
-            _logger.LogInformation($"To {to} Subject: {subject} Body: {body}")
+            _logger.LogInformation($"To {to} Subject: {subject} Body: {body}");
         }
     }
 
